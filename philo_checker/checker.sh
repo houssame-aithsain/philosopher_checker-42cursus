@@ -11,7 +11,7 @@
 # **************************************************************************** #
 
 handle_sigint() {
-	kill -9 $(ps | grep ./philosopher | awk 'NR==1 {print $1}')
+	kill -9 $(ps | grep ./philosopher | awk 'NR==1 {print $1}') >/dev/null 2>&1
 }
 make
 touch time.txt time1.txt
