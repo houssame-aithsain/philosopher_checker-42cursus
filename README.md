@@ -3,7 +3,7 @@ This is a checker that i made for philosopher project(42curses), with this check
  HOW THE CHECKER WORKS:
  It takes the time of every action that every thread made and compares it whit the next action so here he can see if there is an error or not.
  
- HOW TO RUN THE CHECKER:
+ <h1>HOW TO RUN THE CHECKER:</h1>
 You need to compile the files:
    $> make
 Put the output from your philosopher.out inside a file called time.txt:
