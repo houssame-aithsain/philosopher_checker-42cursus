@@ -6,7 +6,7 @@
 /*   By: hait-hsa <hait-hsa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 17:00:12 by hait-hsa          #+#    #+#             */
-/*   Updated: 2023/03/11 18:28:09 by hait-hsa         ###   ########.fr       */
+/*   Updated: 2023/03/11 23:10:17 by hait-hsa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,7 +70,7 @@ int	if_sorted(long long *numbs, int lent)
 	check = 0;
 	j = 0;
 	i = numbs[j];
-	while (j < lent - 1)
+	while (j < lent - 2)
 	{
 		j++;
 		if (i <= numbs[j])
