@@ -6,7 +6,7 @@
 /*   By: hait-hsa <hait-hsa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 17:00:12 by hait-hsa          #+#    #+#             */
-/*   Updated: 2023/03/12 00:26:08 by hait-hsa         ###   ########.fr       */
+/*   Updated: 2023/03/12 00:44:24 by hait-hsa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,7 +77,7 @@ int	if_sorted(long long *numbs, int lent)
 			i = numbs[j];
 		else
 			{
-				printf("\033[0;31m[%lld]===>[%lld]\n", i , numbs[j]);
+				printf("\033[0;31mBefore [%lld]===>[%lld] After\n", i , numbs[j]);
 				i = numbs[j];
 				check++;
 			}
