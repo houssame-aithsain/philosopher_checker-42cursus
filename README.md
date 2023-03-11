@@ -6,9 +6,9 @@ This is a checker that i made for philosopher project(42curses), with this check
  <h1>HOW TO RUN THE CHECKER:</h1>
 <p>You need to compile the files:</p>
    $> make
-Put the output from your philosopher.out inside a file called time.txt:
+<p>Put the output from your philosopher.out inside a file called time.txt:</p>
    $> ./philosopher 100 700 100 100 > time.txt
-Now add some modifications to your output:
+<p>Now add some modifications to your output:</p>
    $> cat time.txt | awk '{print $1}' | tr '\n' ' ' > time1.txt
-Check time1.txt file, Copy the output and run the checker
+<p>Check time1.txt file, Copy the output and run the checker</p>
    $> ./checker "Output"
