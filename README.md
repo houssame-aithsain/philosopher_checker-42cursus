@@ -6,3 +6,4 @@ I created this checker for the Philosopher project (42curses). It records the ti
 <h3>1-Copy philo_checker inside your project folder.</h3>
 <h3>2-Run the script:</h3>
    $> bash checker.sh
+<img src="[/path/to/img.jpg](https://github.com/houssame-aithsain/philosopher_checker-42cursus/blob/main/philo_checker/src/Screen%20Shot%202023-03-11%20at%2011.41.28%20PM.png)" alt="Alt text" title="Optional title">
