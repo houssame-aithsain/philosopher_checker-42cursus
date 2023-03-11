@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   my_checker.c                                       :+:      :+:    :+:   */
+/*   checker.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hait-hsa <hait-hsa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 17:00:12 by hait-hsa          #+#    #+#             */
-/*   Updated: 2023/03/11 23:10:17 by hait-hsa         ###   ########.fr       */
+/*   Updated: 2023/03/12 00:26:08 by hait-hsa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,10 +26,10 @@ int	if_digit(char c)
 	return (0);
 }
 
-int	size_counter(char *arr)
+long long	size_counter(char *arr)
 {
-	int	i;
-	int	lent;
+	long long	i;
+	long long	lent;
 
 	lent = 0;
 	i = 0;
@@ -47,7 +47,7 @@ int	size_counter(char *arr)
 long long	*ft_string_to_digits(char **arr, int lent)
 {
 	long long	*numb;
-	int			i;
+	long long	i;
 
 	i = 0;
 	numb = malloc(sizeof(long long) * lent);
@@ -91,7 +91,7 @@ int main(int argc, char **argv)
 {
 	char		**splt;
 	long long	*numbs;
-	int			lent;
+	long long	lent;
 
 	if (argc == 2)
 	{
