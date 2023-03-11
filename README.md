@@ -9,6 +9,6 @@ This is a checker that i made for philosopher project(42curses), with this check
 <p>Put the output from your philosopher.out inside a file called time.txt:</p>
    $> ./philosopher 100 700 100 100 > time.txt
 <p>Now add some modifications to your output:</p>
-   $> cat time.txt | awk '{print $1}' | tr '\n' ' ' > time1.txt
+   <h3>$> cat time.txt | awk '{print $1}' | tr '\n' ' ' > time1.txt<h3>
 <p>Check time1.txt file, Copy the output and run the checker</p>
    $> ./checker "Output"
