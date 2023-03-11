@@ -6,7 +6,7 @@
 #    By: hait-hsa <hait-hsa@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/03/11 23:30:29 by hait-hsa          #+#    #+#              #
-#    Updated: 2023/03/12 00:41:42 by hait-hsa         ###   ########.fr        #
+#    Updated: 2023/03/12 00:55:11 by hait-hsa         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,3 +35,5 @@ echo "Please wait for 0 < 5-seconds < 6 before pressing CTRL+C to stop the progr
 ./philosopher  $number_of_philosophers $time_to_die $time_to_eat $time_to_sleep > time.txt
 cat time.txt | awk '{print $1}' | tr '\n' ' ' > time1.txt
 ./checker "$(cat time1.txt)"
+echo "
+You can check the output in the [time.txt] file."
