@@ -1,4 +1,4 @@
-I created this checker for the Philosopher project (42curses). It records the time for each philosopher's eating, sleeping, and thinking actions, allowing you to check if the time is correct for each action. This way, you can identify any threads (philosophers) that are performing actions at incorrect times.
+I created this checker for the Philosopher project (42curses). It records the time for each philosopher's eating, sleeping, and thinking actions, allowing you to check if the time is correct for each action. This way, you can identify any thread (philosopher) that are performing actions at incorrect times.
  
   <h1>HOW THE CHECKER WORKS:</h1>
  It records the time of each action made by every thread and compares it with the time of the next action. This way, you can check if there are any errors.
