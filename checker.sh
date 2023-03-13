@@ -17,7 +17,7 @@ handle_sigint() {
 }
 make
 touch time.txt time1.txt
-cd ..;make;cd philosopher_checker-42cursus;
+cd ..;make re;cd philosopher_checker-42cursus;
 cp ../philosopher ./
 clear
 echo "number_of_philosophers"
